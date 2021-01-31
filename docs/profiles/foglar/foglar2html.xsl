@@ -65,7 +65,7 @@
    <xsl:param name="title-bar-sticky">false</xsl:param>
    
    <xsl:param name="homeLabel">eZISS</xsl:param>
-   <xsl:param name="homeURL">https://sidih.si/20.500.12325/2</xsl:param>
+   <xsl:param name="homeURL">https://sidih.si/20.500.12325/118</xsl:param>
     
    <!-- V html/head izpisani metapodatki -->
    <xsl:param name="description">Foglarjev rokopis je baročna romarska pesmarica, ki je nastala na Spodnjem Štajerskem med letoma 1757 in 1762. To je doslej najstarejša znana rokopisna pesmarica, ki so jo napisali Štajerci, vsebuje tudi prve doslej znane slovenske marijinoceljske pesmi.</xsl:param>
@@ -696,9 +696,63 @@
                 </p>
             </div>
         </xsl:if>
-        
     </xsl:template>
     
+    <doc xmlns="http://www.oxygenxml.com/ns/doc/xsl">
+        <desc>Procesiram referenco na teiHeader//tei:handNote tako, da gre od tam referenca naprej na prvo ustrezno text/body//handNote</desc>
+    </doc>
+    <xsl:template match="tei:ref[@type='handNote']">
+        <xsl:variable name="ptr" select="if (self::tei:ptr) then
+            true() else false()"/>
+        <xsl:variable name="xmllang" select="@xml:lang"/>
+        
+        <xsl:variable name="targetRef" select="@target"/>
+        <xsl:variable name="a" select="concat('#',ancestor::tei:text/tei:body/tei:div[@xml:id='foglar-dipl']//tei:handShift[@new=$targetRef]/@xml:id)"/>
+        <xsl:call-template name="makeInternalLink">
+            <xsl:with-param name="target" select="substring($a,2)"/>
+            <xsl:with-param name="ptr" select="$ptr"/>
+            <xsl:with-param name="dest">
+                <xsl:call-template name="generateEndLink">
+                    <xsl:with-param name="where">
+                        <xsl:value-of select="substring($a,2)"/>
+                    </xsl:with-param>
+                </xsl:call-template>
+            </xsl:with-param>
+        </xsl:call-template>
+        <xsl:call-template name="multiTargetSeparator">
+            <xsl:with-param name="xmllang" select="$xmllang"/>
+        </xsl:call-template>
+    </xsl:template>
     
+    <doc xmlns="http://www.oxygenxml.com/ns/doc/xsl">
+        <desc></desc>
+    </doc>
+    <xsl:template match="tei:handShift">
+        <a id="{@xml:id}" title="handShift"/>
+    </xsl:template>
+    
+    <doc xmlns="http://www.oxygenxml.com/ns/doc/xsl">
+        <desc></desc>
+    </doc>
+    <xsl:template match="tei:listWit">
+        <dl>
+            <dt>
+                <xsl:choose>
+                    <xsl:when test="$element-gloss-teiHeader = 'true'">
+                        <xsl:call-template name="node-gloss"/>
+                    </xsl:when>
+                    <xsl:otherwise>
+                        <xsl:value-of select="name()"/>
+                    </xsl:otherwise>
+                </xsl:choose>
+                <xsl:if test="@*">
+                    <xsl:call-template name="teiHeader-dl-atributes"/>
+                </xsl:if>
+            </dt>
+            <dd>
+                <xsl:call-template name="teiHeader-dl"/>
+            </dd>
+        </dl>
+    </xsl:template>
     
 </xsl:stylesheet>

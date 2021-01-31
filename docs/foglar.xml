@@ -68,7 +68,7 @@
             <idno type="ISBN"/>
             <idno type="URI">https://zalozba.zrc-sazu.si/p/</idno>
             <idno type="URI">https://github.com/sidih/foglar</idno>
-            <idno type="hdl">http://hdl.handle.net/20.500.12325/2</idno>
+            <idno type="hdl">http://hdl.handle.net/20.500.12325/118</idno>
             <idno type="COBISS.SI"/>
          </publicationStmt>
          <sourceDesc>
@@ -1428,30 +1428,30 @@
           pesmi so napisale prva, druga in šesta roka, ki so se tudi podpisale z imenom in priimkom
           ter dodale letnico zapisa.</p>
             <p xml:id="foglar-p-89">
-               <hi rend="bold">Prva roka</hi>, ki jo istovetimo z Lovrencem Foflarjem, je zapisala <ref target="#fog_02r">prvih 25 folijev</ref> vključno z naslovnico. Pisava imitira male
+               <hi rend="bold">Prva roka</hi>, ki jo istovetimo z Lovrencem Foflarjem, je zapisala <ref target="#a" type="handNote">prvih 25 folijev</ref> vključno z naslovnico. Pisava imitira male
           tiskane črke in kustode iz takratnih tiskanih knjig. Uporabljeno črnilo je obledelo vse do
           folija 21v. Rdeče obrobe črk prinašajo začetni in končni foliji (1r–1v, 25v).</p>
             <p xml:id="foglar-p-90">
                <hi rend="bold">Druga roka</hi>, ki jo istovetimo z Matijo Vezjakom, je zapisala folije
-            <ref target="#fog_26r">26r</ref>–31v. Pisava imitira male tiskane črke iz tiskanih
+          <ref target="#b" type="handNote">26r</ref>–31v. Pisava imitira male tiskane črke iz tiskanih
           knjig.</p>
             <p xml:id="foglar-p-91">
-               <hi rend="bold">Tretja roka</hi> pesem na folijih <ref target="#fog_32r">32r</ref>–35r
+               <hi rend="bold">Tretja roka</hi> pesem na folijih <ref target="#c" type="handNote">32r</ref>–35r
           zapisuje pesem v lepopisni pisavi, ki v primerjavi s prvima dvema rokama več ni oglata. </p>
             <p xml:id="foglar-p-92">
-               <hi rend="bold">Četrta roka</hi> je pisanje nadaljevala na foliju <ref target="#fog_35r">35r</ref> in ga končala na začetni polovici folija 38r. Črnilo je precej obledelo, črke
+               <hi rend="bold">Četrta roka</hi> je pisanje nadaljevala na foliju <ref target="#d" type="handNote">35r</ref> in ga končala na začetni polovici folija 38r. Črnilo je precej obledelo, črke
           so v primerjavi s tretjo roko manjše. </p>
             <p xml:id="foglar-p-93">
-               <hi rend="bold">Peta roka</hi> je pričela pisati na foliju <ref target="#fog_38r">38r</ref> in končala s folijem 41v. Pisava je podobna prvi in drugi roki.</p>
+               <hi rend="bold">Peta roka</hi> je pričela pisati na foliju <ref target="#e" type="handNote">38r</ref> in končala s folijem 41v. Pisava je podobna prvi in drugi roki.</p>
             <p xml:id="foglar-p-94">
                <hi rend="bold">Šesta roka</hi>, ki jo istovetimo z Jožefom Glazerjem, se vidno razlikuje
           od ostalih, pisava velikih pisanih črk je podobna nemški kurzivni pisavi. Male pisane črke
-          so nekoliko nagnjene v desno. Roka je pisala na folije <ref target="#fog_42r">42r</ref>–50v. Črnilo je proti koncu pisanja vedno bolj obledelo.</p>
+          so nekoliko nagnjene v desno. Roka je pisala na folije <ref target="#f" type="handNote">42r</ref>–50v. Črnilo je proti koncu pisanja vedno bolj obledelo.</p>
             <p xml:id="foglar-p-95">
-               <hi rend="bold">Sedma roka</hi> je pisala na folije <ref target="#fog_51r">51r</ref>–53v.
+               <hi rend="bold">Sedma roka</hi> je pisala na folije <ref target="#g" type="handNote">51r</ref>–53v.
           Pisava je lepopisna, podobno kot pri tretjem piscu.</p>
             <p xml:id="foglar-p-96">
-               <hi rend="bold">Osma roka</hi> je pisala na folije <ref target="#fog_54r">54r</ref>–56v.
+               <hi rend="bold">Osma roka</hi> je pisala na folije <ref target="#h" type="handNote">54r</ref>–56v.
           Ni izključeno, da je tudi te folije popisala sedma roka, ločijo ju le jezikovne
           posebnosti.</p>
          </div>
