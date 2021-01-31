@@ -56,7 +56,7 @@
     <!-- Uredi parametre v skladu z dodatnimi zahtevami za pretvorbo te publikacije: -->
     
     <!-- ../../../  -->
-    <xsl:param name="path-general">http://www2.sistory.si/publikacije/</xsl:param>
+    <xsl:param name="path-general">https://www2.sistory.si/publikacije/</xsl:param>
    
     <!-- Andrej: moja absolutna pot v outputDir je /Users/andrejp/Repo/pub/Kapelski/sidih/,
          vendar v tem primeru naredi pretvorbro iz generiranega sidih/kapelski.xml kar direktno v sidih/ direktorij -->
