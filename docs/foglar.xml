@@ -8,6 +8,7 @@
       <fileDesc>
          <titleStmt>
             <title>Foglarjeva pesmarica</title>
+            <title>Editio princeps</title>
             <title>Elektronska znanstvenokritična izdaja</title>
             <respStmt>
                <resp>Diplomatični prepis, kritični aparat, kritični prepis, opombe in komentar</resp>
@@ -151,9 +152,9 @@
          </langUsage>
       </profileDesc>
       <tei:revisionDesc xmlns:tei="http://www.tei-c.org/ns/1.0">
-         <change when="2021-01-31">
+         <change when="2021-02-01">
             <name>Andrej Pančur</name> dodal divGen za sidih izdajo.</change>
-         <change when="2021-01-31">
+         <change when="2021-02-01">
             <name>Andrej Pančur</name> dodal @xml:id in @n.</change>
          <change>
             <date>2021-01-28</date>
@@ -998,32 +999,26 @@
             <docTitle>
                <titlePart>Foglarjeva pesmarica</titlePart>
                <titlePart>Editio princeps</titlePart>
-               <titlePart>
-                  <ref>Elektronska znanstvenokritična izdaja</ref>
-               </titlePart>
+               <titlePart>Elektronska znanstvenokritična izdaj</titlePart>
             </docTitle>
-            <lb/>
             <byline>Diplomatični in kritični prepis z aparatom variantnih mest ter spremno študijo
           pripravila <docAuthor>Nina Ditmajer</docAuthor>
             </byline>
             <byline>Uredila <docAuthor>Nina Ditmajer</docAuthor> s sodelovanjem Matije Ogrina in Tomaža
-          Erjavca </byline>
-            <lb/>
+          Erjavca</byline>
+            <figure>
+               <graphic n="3" url="media/image3.jpg" height="150px"/>
+            </figure>
             <docImprint>
                <ref target="http://nl.ijs.si/e-zrc/">Elektronske znanstvenokritične izdaje slovenskega
             slovstva</ref>
-               <lb/>
                <publisher>Inštitut za slovensko literaturo in literarne vede ZRC SAZU</publisher>
-               <lb/>
                <pubPlace>Ljubljana</pubPlace>
-               <date>2021</date>
+               <docDate>2021</docDate>
             </docImprint>
             <epigraph>
                <p rend="italic">In memoriam Marijan Smolik (1928–2017)</p>
             </epigraph>
-            <figure>
-               <graphic n="3" url="media/image3.jpg" height="300px"/>
-            </figure>
          </titlePage>
          <divGen type="cip" xml:id="cip">
             <head>Kolofon</head>
@@ -16759,119 +16754,116 @@
                </div>
             </div>
          </div>
-         <div type="summary" xml:id="foglar-summary" xml:lang="sl">
-            <head xml:id="foglar-head-183">Povzetki</head>
-            <div xml:id="foglar-summary.1">
-               <head xml:lang="sl" xml:id="foglar-head-184">Povzetek</head>
-               <p xml:id="foglar-p-340">Slovenske cerkvene in druge nabožne pesmi so se v 18. stoletju začele množično
-            pojavljati tako v tiskanih kot rokopisnih besedilih. Zapis in nastanek novih pesmi so
-            spodbujali številni meniški redovi, ki so takrat delovali na vzhodnem Štajerskem, še
-            posebej jezuiti, ki so se sredi 18. stoletja naselili v Mariboru in tam ustanovili
-            gimnazijo. Foglarjev rokopis je zapisalo osem različnih rok, pobudo za nastanek pa lahko
-            povežemo s 600-letnico božje poti v Marijino Celje (Mariazell), ki se je praznovala leta
-            1757. Pesmarica ima za nas velik pomen, saj so to prvi zapisi marijinoceljskih pesmi v
-            slovenskem jeziku. Poleg 13 Marijinih pesmi najdemo v pesmarici še častilno pesem o
-            Sveti trojici, molitveno pesem sv. Ignacija Lojolskega o Božji ljubezni, pesem o
-            čaščenju Jezusovega imena, eshatološke pesmi o vernih dušah v vicah, o cilju in koncu
-            človeka, postno pesem o izgubljeni ovčici ter svetniške pesmi o sveti Notburgi, sv.
-            Magdaleni, sv. Uršuli in sv. Jožefu.</p>
-               <p xml:id="foglar-p-341">Jezikovna analiza je razkrila, da so na štajerske pisce imele večji vpliv dotedanje
-            kranjske izdaje, ki so jih jezikovno prirejali za potrebe svojega kraja. Tako je jezik
-            teh pesmi mešanica osrednje- in vzhodnoslovenske knjižnojezikovne norme, npr.
-            zapisovanje grafemov <hi rend="italic">e</hi> in <hi rend="italic">a</hi> za stalno
-            dolgi polglasnik (<hi rend="italic">dan/den</hi>), pisanje enoglasnikov in dvoglasnikov
-            za stalno dolgi jat (<hi rend="italic">svet/svejt</hi>) ter stalno dolgi <hi rend="italic">o</hi> (<hi rend="italic">moč/movč</hi>), najdemo pa tudi nekatere
-            tipične pokrajinske posebnosti, ki pesmarico umeščajo v vzhodnoštajersko narečno
-            območje, npr. vokalizacija končnega deležniškega -<hi rend="italic">ł</hi> v -<hi rend="italic">a</hi> in samoglasniškega <hi rend="italic">ł̥</hi> v <hi rend="italic">u</hi>.</p>
-               <p xml:id="foglar-p-342">Literarna analiza se posveča žanrski in vsebinski analizi ter analizi verza. V pesmih so
-            prisotni motivi in pesniške metafore iz Biblije, srednjeveških himen in tudi iz
-            slovenske protestantske tradicije. Iz pesmi odsevajo tudi tedanje vojne razmere, saj je
-            bila Habsburška monarhija v vojni s Prusijo. Analiza verza razkriva, da je slovenski
-            verz že v 18. stoletju bil silabotoničen, sploh če je bila pesem prevedena iz nemščine
-            ali latinščine, če jo je zapisal izobražen duhovnik ali je bila prepisana iz katere od
-            knjižnih predlog. Pri pesmih, zapisanih po posluhu, ni bilo mogoče prepoznati kitičnih
-            oblik in stopic. Analiza je razkrila nekatere znane kitične oblike, kot so
-            hildebrandska, romarska in vagantska kitica, alpska poskočnica in t. i.
-            Chevy-Chase-Strophe. </p>
-            </div>
-            <div xml:id="foglar-summary.2">
-               <head xml:id="foglar-head-185">Summary</head>
-               <p xml:id="foglar-p-343">In the eighteenth century, Slovenian ecclesiastical and other religious hymns began to
-            appear in large numbers in both printed and manuscript texts. At that time, the creation
-            and rendering of new hymns was encouraged by numerous monastic orders active in Eastern
-            Styria, especially by the Jesuits, who settled in Maribor in the mid-eighteenth century
-            and established a grammar school (<hi rend="italic">gimnazija</hi>) there. The
-            initiative for Foglar’s manuscript, which is compiled by eight different scribes, can be
-            linked to the occasion of the 600th anniversary of the Divine Pilgrimage to Mariazell,
-            celebrated in 1757. The hymn book is of great importance as it is the first record of
-            Mariazell’s hymns in Slovenian. In addition to 13 poems of St Mary, it also contains a
-            festive hymn dedicated to the Holy Trinity; a hymn of St Ignatius of Loyola celebrating
-            the love of God; a hymn worshipping Jesus’ name; eschatological hymns about faithful
-            souls in Purgatory and the purpose and end of man; a hymn of repentance for the fasting
-            period about a lost sheep; and hymns dedicated to St Notburga, St Magdalene, St Ursula
-            and St Joseph.</p>
-               <p xml:id="foglar-p-344">Linguistic analysis has revealed that Styrian writers were significantly influenced by
-            the Carniolan editions of the past, which were linguistically adapted to their local
-            needs. Thus, the hymns are a mixture of Central and East Slovenian literary norms, e.g.,
-            the spelling of the permanently long schwa as the graph <hi rend="italic">a</hi> and <hi rend="italic">e</hi> (<hi rend="italic">dan</hi>/<hi rend="italic">den</hi>), the
-            adoption of a monophthong or a diphthong for the permanently long jat (<hi rend="italic">svet</hi>/<hi rend="italic">svejt</hi>), respectively, as well as for the
-            permanently long <hi rend="italic">o</hi> (<hi rend="italic">moč</hi>/<hi rend="italic">movč</hi>). In addition, we find some typical regional peculiarities that place the
-            hymnbook in the East Styrian dialect area, e.g., the vocalization causing the final
-            participial -<hi rend="italic">ł</hi> to become -<hi rend="italic">a</hi> and the
-            vowel-like <hi rend="italic">ł̥</hi> to change to <hi rend="italic">u</hi>. </p>
-               <p xml:id="foglar-p-345">This literary analysis focuses on genre and content analysis, as well as verse analysis.
-            The hymns contain motifs and poetic metaphors from the Bible and medieval hymns, as well
-            as from the Slovenian Protestant tradition. The hymns also reflect the fact that, at the
-            time, the Habsburg Monarchy was at war with Prussia. The analysis of the verse has shown
-            that the origins of the Slovenian syllabotonic verse date as far back as the eighteenth
-            century, especially in poems translated from German or Latin, those written by educated
-            priests, or those transcribed from one of the base texts. In the hymns that were
-            rendered from oral sources, the form and foot of the stanza could not be identified. The
-            research has revealed some well-known stanzaic forms, such as the Hildebrand stanza, the
-            pilgrim stanza, the Vagant stanza, as well as Alpine dancing songs and the so-called
-            Chevy-Chase-Strophe.</p>
-            </div>
-            <div xml:id="foglar-summary.3">
-               <head xml:id="foglar-head-186">Zussamenfassung</head>
-               <p xml:id="foglar-p-346">Slowenische Kirchenlieder und andere geistliche Gesänge begannen im 18. Jahrhundert
-            massenweise sowohl in gedruckten als auch in handschriftlichen Texten vorzukommen. Die
-            Niederschrift und das Entstehen neuer Lieder wurde von zahlreichen Mönchsorden, die zu
-            jener Zeit in der Oststeiermark tätig waren, angeregt, insbesondere von den Jesuiten,
-            die sich Mitte des 18. Jahrhunderts in Maribor ansiedelten und dort ein Gymnasium
-            gründeten. Die Foglar-Handschrift wurde von acht verschiedenen Händen verfasst und steht
-            vermutlich in Verbindung mit dem 600-jährigen Jubiläum des Wallfahrtsortes Mariazell,
-            das 1757 begangen wurde. Nachdem das Liederbuch die ersten Niederschriften von
-            Mariazeller Liedern in der slowenischen Sprache enthält, hat es eine besondere
-            Bedeutung. Neben 13 Marienliedern umfasst es noch ein Loblied an die Heilige
-            Dreifaltigkeit, ein Gebetslied des Hl. Ignatius von Loyola über die Gottesliebe, ein
-            Anbetungslied an den Namen Jesu, eschatologische Lieder über die armen Seelen im
-            Fegefeuer sowie über das Ziel und das Ende des Menschen, ein Fastenlied über das
-            verlorene Schaf sowie Heiligenlieder über die Hl. Notburga, die Hl. Magdalena, die Hl.
-            Ursula und den Hl. Joseph.</p>
-               <p xml:id="foglar-p-347">Bei der sprachlichen Analyse stellte sich heraus, dass die steirischen Verfasser von
-            älteren Krainer Ausgaben beeinflusst wurden, die sie sprachlich an die Bedingungen ihrer
-            Orte anpassten. Somit weisen die Lieder eine Mischung der mittel- und ostslowenischen
-            schriftsprachlichen Normen auf: es werden z.B. die Grapheme <hi rend="italic">e</hi> und
-            <hi rend="italic">a</hi> für das (etymologische) lange Schwa (<hi rend="italic">dan</hi>/<hi rend="italic">den</hi>) und sowohl Monophthonge als auch Diphthonge für
-            das lange jat (<hi rend="italic">svet</hi>/<hi rend="italic">svejt</hi>) und das lange
-            <hi rend="italic">o</hi> (<hi rend="italic">moč</hi>/<hi rend="italic">movč</hi>)
-            verwendet. Sie enthalten aber auch einige typische regionale Besonderheiten, z.B. die
-            Vokalisierung der Partizipialendung -<hi rend="italic">ł</hi> zu -<hi rend="italic">a</hi> und des sonantischen <hi rend="italic">ł̥</hi> zu <hi rend="italic">u</hi>,
-            auf deren Grundlage das Liederbuch dem oststeirischen Dialektgebiet zugeordnet werden
-            kann.</p>
-               <p xml:id="foglar-p-348">Die literaturwissenschaftliche Analyse wendete sich der Gattung, dem Inhalt und der
-            Versform der Gesänge zu. Die Lieder enthalten Motive und poetische Metaphern aus der
-            Bibel, aus mittelalterlichen Hymnen und aus der slowenischen protestantischen Tradition.
-            Inhaltlich spiegeln sie auch die damaligen Kriegsverhältnisse wider, denn die
-            Habsburgermonarchie befand sich gerade im Krieg gegen Preußen. Die Versanalyse zeigt,
-            dass der slowenische Versbau bereits im 18. Jahrhundert syllabotonisch war, insbesondere
-            wenn die Gesänge aus dem Deutschen oder Lateinischen übersetzt wurden, wenn sie von
-            gebildeten Priestern aufgezeichnet oder von einer Buchvorlage abgeschrieben wurden.
-            Lieder, die nach dem Gehör niedergeschrieben wurden, weisen weder eine Strophenform noch
-            einen Versfuß auf. Ansonsten konnten bei der Analyse einige bekannte Strophenformen,
-            etwa die Hildebrandsstrophe, die Pilger- und Vagantenstrophe, das Gstanzl bzw.
-            Schnaderhüpferl und die sog. Chevy-Chase-Strophe erfasst werden.</p>
-            </div>
+         <div type="summary" xml:id="foglar-summary.1" xml:lang="sl">
+            <head xml:id="foglar-head-183">Povzetek</head>
+            <p xml:id="foglar-p-340">Slovenske cerkvene in druge nabožne pesmi so se v 18. stoletju začele množično
+          pojavljati tako v tiskanih kot rokopisnih besedilih. Zapis in nastanek novih pesmi so
+          spodbujali številni meniški redovi, ki so takrat delovali na vzhodnem Štajerskem, še
+          posebej jezuiti, ki so se sredi 18. stoletja naselili v Mariboru in tam ustanovili
+          gimnazijo. Foglarjev rokopis je zapisalo osem različnih rok, pobudo za nastanek pa lahko
+          povežemo s 600-letnico božje poti v Marijino Celje (Mariazell), ki se je praznovala leta
+          1757. Pesmarica ima za nas velik pomen, saj so to prvi zapisi marijinoceljskih pesmi v
+          slovenskem jeziku. Poleg 13 Marijinih pesmi najdemo v pesmarici še častilno pesem o
+          Sveti trojici, molitveno pesem sv. Ignacija Lojolskega o Božji ljubezni, pesem o
+          čaščenju Jezusovega imena, eshatološke pesmi o vernih dušah v vicah, o cilju in koncu
+          človeka, postno pesem o izgubljeni ovčici ter svetniške pesmi o sveti Notburgi, sv.
+          Magdaleni, sv. Uršuli in sv. Jožefu.</p>
+            <p xml:id="foglar-p-341">Jezikovna analiza je razkrila, da so na štajerske pisce imele večji vpliv dotedanje
+          kranjske izdaje, ki so jih jezikovno prirejali za potrebe svojega kraja. Tako je jezik
+          teh pesmi mešanica osrednje- in vzhodnoslovenske knjižnojezikovne norme, npr.
+          zapisovanje grafemov <hi rend="italic">e</hi> in <hi rend="italic">a</hi> za stalno
+          dolgi polglasnik (<hi rend="italic">dan/den</hi>), pisanje enoglasnikov in dvoglasnikov
+          za stalno dolgi jat (<hi rend="italic">svet/svejt</hi>) ter stalno dolgi <hi rend="italic">o</hi> (<hi rend="italic">moč/movč</hi>), najdemo pa tudi nekatere
+          tipične pokrajinske posebnosti, ki pesmarico umeščajo v vzhodnoštajersko narečno
+          območje, npr. vokalizacija končnega deležniškega -<hi rend="italic">ł</hi> v -<hi rend="italic">a</hi> in samoglasniškega <hi rend="italic">ł̥</hi> v <hi rend="italic">u</hi>.</p>
+            <p xml:id="foglar-p-342">Literarna analiza se posveča žanrski in vsebinski analizi ter analizi verza. V pesmih so
+          prisotni motivi in pesniške metafore iz Biblije, srednjeveških himen in tudi iz
+          slovenske protestantske tradicije. Iz pesmi odsevajo tudi tedanje vojne razmere, saj je
+          bila Habsburška monarhija v vojni s Prusijo. Analiza verza razkriva, da je slovenski
+          verz že v 18. stoletju bil silabotoničen, sploh če je bila pesem prevedena iz nemščine
+          ali latinščine, če jo je zapisal izobražen duhovnik ali je bila prepisana iz katere od
+          knjižnih predlog. Pri pesmih, zapisanih po posluhu, ni bilo mogoče prepoznati kitičnih
+          oblik in stopic. Analiza je razkrila nekatere znane kitične oblike, kot so
+          hildebrandska, romarska in vagantska kitica, alpska poskočnica in t. i.
+          Chevy-Chase-Strophe. </p>
+         </div>
+         <div type="summary" xml:id="foglar-summary.2" xml:lang="en">
+            <head xml:id="foglar-head-184">Summary</head>
+            <p xml:id="foglar-p-343">In the eighteenth century, Slovenian ecclesiastical and other religious hymns began to
+          appear in large numbers in both printed and manuscript texts. At that time, the creation
+          and rendering of new hymns was encouraged by numerous monastic orders active in Eastern
+          Styria, especially by the Jesuits, who settled in Maribor in the mid-eighteenth century
+          and established a grammar school (<hi rend="italic">gimnazija</hi>) there. The
+          initiative for Foglar’s manuscript, which is compiled by eight different scribes, can be
+          linked to the occasion of the 600th anniversary of the Divine Pilgrimage to Mariazell,
+          celebrated in 1757. The hymn book is of great importance as it is the first record of
+          Mariazell’s hymns in Slovenian. In addition to 13 poems of St Mary, it also contains a
+          festive hymn dedicated to the Holy Trinity; a hymn of St Ignatius of Loyola celebrating
+          the love of God; a hymn worshipping Jesus’ name; eschatological hymns about faithful
+          souls in Purgatory and the purpose and end of man; a hymn of repentance for the fasting
+          period about a lost sheep; and hymns dedicated to St Notburga, St Magdalene, St Ursula
+          and St Joseph.</p>
+            <p xml:id="foglar-p-344">Linguistic analysis has revealed that Styrian writers were significantly influenced by
+          the Carniolan editions of the past, which were linguistically adapted to their local
+          needs. Thus, the hymns are a mixture of Central and East Slovenian literary norms, e.g.,
+          the spelling of the permanently long schwa as the graph <hi rend="italic">a</hi> and <hi rend="italic">e</hi> (<hi rend="italic">dan</hi>/<hi rend="italic">den</hi>), the
+          adoption of a monophthong or a diphthong for the permanently long jat (<hi rend="italic">svet</hi>/<hi rend="italic">svejt</hi>), respectively, as well as for the
+          permanently long <hi rend="italic">o</hi> (<hi rend="italic">moč</hi>/<hi rend="italic">movč</hi>). In addition, we find some typical regional peculiarities that place the
+          hymnbook in the East Styrian dialect area, e.g., the vocalization causing the final
+          participial -<hi rend="italic">ł</hi> to become -<hi rend="italic">a</hi> and the
+          vowel-like <hi rend="italic">ł̥</hi> to change to <hi rend="italic">u</hi>. </p>
+            <p xml:id="foglar-p-345">This literary analysis focuses on genre and content analysis, as well as verse analysis.
+          The hymns contain motifs and poetic metaphors from the Bible and medieval hymns, as well
+          as from the Slovenian Protestant tradition. The hymns also reflect the fact that, at the
+          time, the Habsburg Monarchy was at war with Prussia. The analysis of the verse has shown
+          that the origins of the Slovenian syllabotonic verse date as far back as the eighteenth
+          century, especially in poems translated from German or Latin, those written by educated
+          priests, or those transcribed from one of the base texts. In the hymns that were
+          rendered from oral sources, the form and foot of the stanza could not be identified. The
+          research has revealed some well-known stanzaic forms, such as the Hildebrand stanza, the
+          pilgrim stanza, the Vagant stanza, as well as Alpine dancing songs and the so-called
+          Chevy-Chase-Strophe.</p>
+         </div>
+         <div type="summary" xml:id="foglar-summary.3" xml:lang="de">
+            <head xml:id="foglar-head-185">Zussamenfassung</head>
+            <p xml:id="foglar-p-346">Slowenische Kirchenlieder und andere geistliche Gesänge begannen im 18. Jahrhundert
+          massenweise sowohl in gedruckten als auch in handschriftlichen Texten vorzukommen. Die
+          Niederschrift und das Entstehen neuer Lieder wurde von zahlreichen Mönchsorden, die zu
+          jener Zeit in der Oststeiermark tätig waren, angeregt, insbesondere von den Jesuiten,
+          die sich Mitte des 18. Jahrhunderts in Maribor ansiedelten und dort ein Gymnasium
+          gründeten. Die Foglar-Handschrift wurde von acht verschiedenen Händen verfasst und steht
+          vermutlich in Verbindung mit dem 600-jährigen Jubiläum des Wallfahrtsortes Mariazell,
+          das 1757 begangen wurde. Nachdem das Liederbuch die ersten Niederschriften von
+          Mariazeller Liedern in der slowenischen Sprache enthält, hat es eine besondere
+          Bedeutung. Neben 13 Marienliedern umfasst es noch ein Loblied an die Heilige
+          Dreifaltigkeit, ein Gebetslied des Hl. Ignatius von Loyola über die Gottesliebe, ein
+          Anbetungslied an den Namen Jesu, eschatologische Lieder über die armen Seelen im
+          Fegefeuer sowie über das Ziel und das Ende des Menschen, ein Fastenlied über das
+          verlorene Schaf sowie Heiligenlieder über die Hl. Notburga, die Hl. Magdalena, die Hl.
+          Ursula und den Hl. Joseph.</p>
+            <p xml:id="foglar-p-347">Bei der sprachlichen Analyse stellte sich heraus, dass die steirischen Verfasser von
+          älteren Krainer Ausgaben beeinflusst wurden, die sie sprachlich an die Bedingungen ihrer
+          Orte anpassten. Somit weisen die Lieder eine Mischung der mittel- und ostslowenischen
+          schriftsprachlichen Normen auf: es werden z.B. die Grapheme <hi rend="italic">e</hi> und
+          <hi rend="italic">a</hi> für das (etymologische) lange Schwa (<hi rend="italic">dan</hi>/<hi rend="italic">den</hi>) und sowohl Monophthonge als auch Diphthonge für
+          das lange jat (<hi rend="italic">svet</hi>/<hi rend="italic">svejt</hi>) und das lange
+          <hi rend="italic">o</hi> (<hi rend="italic">moč</hi>/<hi rend="italic">movč</hi>)
+          verwendet. Sie enthalten aber auch einige typische regionale Besonderheiten, z.B. die
+          Vokalisierung der Partizipialendung -<hi rend="italic">ł</hi> zu -<hi rend="italic">a</hi> und des sonantischen <hi rend="italic">ł̥</hi> zu <hi rend="italic">u</hi>,
+          auf deren Grundlage das Liederbuch dem oststeirischen Dialektgebiet zugeordnet werden
+          kann.</p>
+            <p xml:id="foglar-p-348">Die literaturwissenschaftliche Analyse wendete sich der Gattung, dem Inhalt und der
+          Versform der Gesänge zu. Die Lieder enthalten Motive und poetische Metaphern aus der
+          Bibel, aus mittelalterlichen Hymnen und aus der slowenischen protestantischen Tradition.
+          Inhaltlich spiegeln sie auch die damaligen Kriegsverhältnisse wider, denn die
+          Habsburgermonarchie befand sich gerade im Krieg gegen Preußen. Die Versanalyse zeigt,
+          dass der slowenische Versbau bereits im 18. Jahrhundert syllabotonisch war, insbesondere
+          wenn die Gesänge aus dem Deutschen oder Lateinischen übersetzt wurden, wenn sie von
+          gebildeten Priestern aufgezeichnet oder von einer Buchvorlage abgeschrieben wurden.
+          Lieder, die nach dem Gehör niedergeschrieben wurden, weisen weder eine Strophenform noch
+          einen Versfuß auf. Ansonsten konnten bei der Analyse einige bekannte Strophenformen,
+          etwa die Hildebrandsstrophe, die Pilger- und Vagantenstrophe, das Gstanzl bzw.
+          Schnaderhüpferl und die sog. Chevy-Chase-Strophe erfasst werden.</p>
          </div>
       </back>
    </text>

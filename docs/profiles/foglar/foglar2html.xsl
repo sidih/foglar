@@ -518,6 +518,76 @@
         <xsl:apply-templates select="tei:pubPlace" mode="kolofon"/>
         <xsl:apply-templates select="tei:availability" mode="kolofon"/>
         <xsl:apply-templates select="tei:idno" mode="kolofon"/>
+        <br/>
+        <!-- dodan sourceDesc -->
+        <xsl:for-each select="ancestor::tei:TEI/tei:teiHeader/tei:fileDesc/tei:sourceDesc">
+            <xsl:apply-templates/>
+        </xsl:for-each>
+        <br/>
+        <!-- dodani povzetki -->
+        <xsl:for-each select="ancestor::tei:TEI/tei:teiHeader/tei:profileDesc/tei:abstract">
+            <xsl:choose>
+                <xsl:when test="@xml:lang = 'en'">
+                    <p>
+                        <xsl:text>ABSTRACT: </xsl:text>
+                        <xsl:value-of select="."/>
+                    </p>
+                    <p>
+                        <xsl:text>KEYWORDS: </xsl:text>
+                        <xsl:for-each
+                            select="../tei:textClass/tei:keywords[@xml:lang = 'en']/tei:term">
+                            <xsl:value-of select="."/>
+                            <xsl:if test="position() != last()">
+                                <xsl:text>, </xsl:text>
+                            </xsl:if>
+                        </xsl:for-each>
+                    </p>
+                    <br/>
+                    <br/>
+                </xsl:when>
+                <xsl:when test="@xml:lang = 'sl'">
+                    <p>
+                        <xsl:text>POVZETEK: </xsl:text>
+                        <xsl:value-of select="."/>
+                    </p>
+                    <p>
+                        <xsl:text>KLJUČNE BESEDE: </xsl:text>
+                        <xsl:for-each
+                            select="../tei:textClass/tei:keywords[@xml:lang = 'sl']/tei:term">
+                            <xsl:value-of select="."/>
+                            <xsl:if test="position() != last()">
+                                <xsl:text>, </xsl:text>
+                            </xsl:if>
+                        </xsl:for-each>
+                    </p>
+                    <br/>
+                    <br/>
+                </xsl:when>
+                <xsl:when test="@xml:lang = 'de'">
+                    <p>
+                        <xsl:text>ABSTRAKT: </xsl:text>
+                        <xsl:value-of select="."/>
+                    </p>
+                    <p>
+                        <xsl:text>SCHLÜSSELBEGRIFFE: </xsl:text>
+                        <xsl:for-each
+                            select="../tei:textClass/tei:keywords[@xml:lang = 'de']/tei:term">
+                            <xsl:value-of select="."/>
+                            <xsl:if test="position() != last()">
+                                <xsl:text>, </xsl:text>
+                            </xsl:if>
+                        </xsl:for-each>
+                    </p>
+                    <br/>
+                    <br/>
+                </xsl:when>
+                <xsl:otherwise>
+                    <xsl:message>Unknown abstract language <xsl:value-of select="@xml:lang"
+                    /></xsl:message>
+                </xsl:otherwise>
+            </xsl:choose>
+        </xsl:for-each>
+        <br/>
     </xsl:template>
     
     <doc xmlns="http://www.oxygenxml.com/ns/doc/xsl">
@@ -653,6 +723,22 @@
             </xsl:for-each>
         </p>
         <br/>
+        <xsl:if test="tei:figure">
+            <div class="text-center">
+                <p>
+                    <img src="{tei:figure/tei:graphic/@url}" alt="naslovna slika" height="300" width="150"/>
+                </p>
+            </div>
+        </xsl:if>
+        <xsl:if test="tei:graphic">
+            <div class="text-center">
+                <p>
+                    <img src="{tei:graphic/@url}" alt="naslovna slika" height="300" width="150"/>
+                </p>
+            </div>
+        </xsl:if>
+        
+        <br/>
         <p class="text-center">
             <!-- dodana referenca -->
             <xsl:for-each select="tei:docImprint/tei:ref">
@@ -681,21 +767,6 @@
         <blockquote class="text-center">
             <xsl:value-of select="tei:epigraph/tei:p"/>
         </blockquote>
-        <br/>
-        <xsl:if test="tei:figure">
-            <div class="text-center">
-                <p>
-                    <img src="{tei:figure/tei:graphic/@url}" alt="naslovna slika"/>
-                </p>
-            </div>
-        </xsl:if>
-        <xsl:if test="tei:graphic">
-            <div class="text-center">
-                <p>
-                    <img src="{tei:graphic/@url}" alt="naslovna slika"/>
-                </p>
-            </div>
-        </xsl:if>
     </xsl:template>
     
     <doc xmlns="http://www.oxygenxml.com/ns/doc/xsl">
